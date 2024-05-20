@@ -17,7 +17,7 @@ const CardDetails = () => {
         </div>
       </div>
       <div className="mt-[1rem] flex flex-col gap-[1.5rem]">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-2">
           <div className="flex flex-col gap-[0.5rem]">
             <h2 className="text-[#1e2a53] font-bold text-[20px]">
               Card Number
@@ -31,8 +31,8 @@ const CardDetails = () => {
             <span className="font-bold">Edit</span>
           </div>
         </div>
-        <div className="w-full rounded-md h-[80px] border-2 border-[#e0e0e080] bg-[#f9fbfc] flex items-center justify-between px-4">
-          <div className="flex items-center  justify-between w-[60%]">
+        <div className="w-full rounded-md lg:h-[80px] h-[55px]  border-2 border-[#e0e0e080] bg-[#f9fbfc] flex items-center justify-between px-4">
+          <div className="flex items-center justify-between lg:w-[60%] w-full">
             <img src={MSLogo} alt="" className="w-[50px]" />
             <CardInput text="2412" />
             <span className={dotClassName}>-</span>
@@ -51,9 +51,9 @@ const CardDetails = () => {
       {/* Four Digits */}
 
       <div className="flex justify-between items-center">
-        <div className="flex flex-col gap-[0.5rem] flex-[1]">
+        <div className="flex flex-col gap-[0.2rem] flex-[1]">
           <h2 className="text-[#1e2a53] font-bold text-[20px]">Card Number</h2>
-          <span className="text-[#8e96a3] font-medium">
+          <span className="text-[#8e96a3] font-medium max-w-[90%]">
             Enter the 3 or 4 digit number on the card
           </span>
         </div>
@@ -68,9 +68,9 @@ const CardDetails = () => {
       {/* Expiry Date */}
 
       <div className="flex justify-between items-center w-full ">
-        <div className="flex flex-col gap-[0.5rem] w-[50%] ">
+        <div className="flex flex-col gap-[0.2rem] w-[50%] ">
           <h2 className="text-[#1e2a53] font-bold text-[20px]">Expiry Date</h2>
-          <span className="text-[#8e96a3] font-medium">
+          <span className="text-[#8e96a3] font-medium max-w-[90%]">
             Enter the expiration date of the card
           </span>
         </div>
@@ -88,9 +88,9 @@ const CardDetails = () => {
       {/* Four Digits */}
 
       <div className="flex justify-between items-center">
-        <div className="flex flex-col gap-[0.5rem] flex-[1]">
+        <div className="flex flex-col gap-[0.2rem] flex-[1]">
           <h2 className="text-[#1e2a53] font-bold text-[20px]">Password</h2>
-          <span className="text-[#8e96a3] font-medium">
+          <span className="text-[#8e96a3] font-medium max-w-[90%]">
             Enter your dynamic password
           </span>
         </div>

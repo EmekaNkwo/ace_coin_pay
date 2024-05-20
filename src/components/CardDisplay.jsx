@@ -42,6 +42,7 @@ const CardDisplay = () => {
           </div>
         </div>
       </div>
+
       <div className="bg-[#e6eaed] rounded-[10px] flex flex-col justify-between flex-[5] w-full">
         <div className="h-[40%]"></div>
         <div className="h-[60%] w-[300px] mx-auto flex flex-col p-[1rem] gap-[1rem] ">

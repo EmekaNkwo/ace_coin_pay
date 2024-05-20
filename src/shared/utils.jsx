@@ -16,7 +16,7 @@ export const TimerCount = () => {
 export const CardInput = ({ text, isBold, isActive }) => {
   return (
     <span
-      className={`font-semibold text-[24px] ${
+      className={`font-semibold lg:text-[24px] text-[18px] ${
         isActive
           ? "text-[#035fff]"
           : `${isBold ? "text-[#1e2a53]" : "text-[#8e96a390]"}`
