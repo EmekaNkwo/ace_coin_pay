@@ -22,7 +22,7 @@ const CardDetails = () => {
             <h2 className="text-[#1e2a53] font-bold text-[20px]">
               Card Number
             </h2>
-            <span className="text-[#8e96a3] font-medium">
+            <span className="text-[#8e96a3] font-medium lg:max-w-full max-w-[80%]">
               Enter the 16-digit card number on the card
             </span>
           </div>
