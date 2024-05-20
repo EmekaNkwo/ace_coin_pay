@@ -21,7 +21,7 @@ function App() {
             <IconClose />
           </div>
         </div>
-        <div className="p-[5px] lg:mx-[5rem] mx-[2rem] flex items-start lg:gap-[3rem] gap-[1rem] ">
+        <div className="p-[5px] lg:mx-[2.5rem] mx-[1rem] flex items-start lg:gap-[3rem] gap-[1rem] ">
           <div className="flex-[2]">
             <MemoriedCardDetails />
           </div>
