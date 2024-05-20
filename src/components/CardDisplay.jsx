@@ -6,7 +6,7 @@ import { IoReceiptOutline } from "react-icons/io5";
 
 const CardDisplay = () => {
   return (
-    <div className="flex-[1] w-full flex flex-col gap-[1rem] lg:min-h-[740px]">
+    <div className="flex-[1] w-full flex flex-col gap-[1rem] lg:min-h-[700px]">
       <div className="flex-[1] flex items-start justify-center relative">
         <div className="w-[80px] h-[40px] bg-blueColor rounded-md" />
         <div className="absolute bg-[#fafcfe] w-[250px] h-[350px] top-2 rounded-[10px]  bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-80 border border-gray-100">

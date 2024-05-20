@@ -9,7 +9,7 @@ const CardDetails = () => {
   const dotClassName = "text-[#1e2a53] font-bold text-[20px]";
 
   return (
-    <div className="flex flex-col lg:gap-[2rem] gap-[0.5rem]">
+    <div className="flex flex-col lg:gap-[2rem] gap-[0.5rem] h-full">
       <div className="flex justify-between items-center">
         <img src={AceIcon} alt="aceIcon" />
         <div className="flex">
@@ -31,7 +31,7 @@ const CardDetails = () => {
             <span className="font-bold">Edit</span>
           </div>
         </div>
-        <div className="w-full rounded-md lg:h-[80px] h-[55px]  border-2 border-[#e0e0e080] bg-[#f9fbfc] flex items-center justify-between px-4">
+        <div className="w-full rounded-md lg:h-[70px] h-[60px]  border-2 border-[#e0e0e080] bg-[#f9fbfc] flex items-center justify-between px-4">
           <div className="flex items-center justify-between lg:w-[60%] w-full">
             <img src={MSLogo} alt="" className="w-[50px]" />
             <CardInput text="2412" />
@@ -57,7 +57,7 @@ const CardDetails = () => {
             Enter the 3 or 4 digit number on the card
           </span>
         </div>
-        <div className="w-full rounded-md h-[80px] border-2 border-[#e0e0e080] flex items-center justify-between px-4  flex-[1]">
+        <div className="w-full rounded-md lg:h-[70px] h-[60px] border-2 border-[#e0e0e080] flex items-center justify-between px-4  flex-[1]">
           <div className=""></div>
           <CardInput text="327" isBold />
 
@@ -75,7 +75,7 @@ const CardDetails = () => {
           </span>
         </div>
         <div className="flex items-center w-[55%]  gap-[1rem]">
-          <div className="w-full rounded-md h-[80px] border-2 border-[#e0e0e080] flex items-center justify-center px-4">
+          <div className="w-full rounded-md lg:h-[70px] h-[60px]border-2 border-[#e0e0e080] flex items-center justify-center px-4">
             <CardInput text="09" isBold />
           </div>
           <span className={dotClassName}>/</span>
@@ -94,7 +94,7 @@ const CardDetails = () => {
             Enter your dynamic password
           </span>
         </div>
-        <div className="w-full rounded-md h-[80px] border-2 border-[#e0e0e080] flex items-center justify-between px-4  flex-[1]">
+        <div className="w-full rounded-md lg:h-[70px] h-[60px] border-2 border-[#e0e0e080] flex items-center justify-between px-4  flex-[1]">
           <div className="ml-4">
             <CardInput
               text="&#x2022; &#x2022; &#x2022; &#x2022; &#x2022; &#x2022; &#x2022; &#x2022;"
@@ -107,7 +107,7 @@ const CardDetails = () => {
 
       {/* Button */}
 
-      <button className="w-full h-[80px] text-[22px] bg-blueColor rounded-md font-bold text-[#fff] px-4">
+      <button className="w-full lg:h-[70px] h-[60px] text-[22px] bg-blueColor rounded-md font-bold text-[#fff] px-4">
         Pay Now
       </button>
     </div>
