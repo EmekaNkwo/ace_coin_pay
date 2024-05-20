@@ -10,7 +10,7 @@ const CardDetails = () => {
 
   return (
     <div className="flex flex-col lg:gap-[2rem] gap-[0.5rem] h-full">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center lg:gap-1 gap-3 ">
         <img src={AceIcon} alt="aceIcon" />
         <div className="flex">
           <TimerCount />
