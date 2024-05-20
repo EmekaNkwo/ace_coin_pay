@@ -32,7 +32,7 @@ const CardDetails = () => {
           </div>
         </div>
         <div className="w-full rounded-md lg:h-[70px] h-[60px]  border-2 border-[#e0e0e080] bg-[#f9fbfc] flex items-center justify-between px-4">
-          <div className="flex items-center justify-between lg:w-[60%] w-full">
+          <div className="flex items-center justify-between lg:w-[60%] w-full lg:gap-1 gap-2">
             <img src={MSLogo} alt="" className="w-[50px]" />
             <CardInput text="2412" />
             <span className={dotClassName}>-</span>
