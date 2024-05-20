@@ -14,7 +14,7 @@ function App() {
       className="w-full flex justify-center items-center min-h-screen"
       style={hero_background}
     >
-      <div className="lg:w-[70%] w-[90% h-[800px] mt-[1rem] lg:mt-0  bg-[#fff] overflow-auto">
+      <div className="lg:w-[70%] w-[90%] h-[780px] mt-[1rem] lg:mt-0  bg-[#fff] overflow-auto">
         <div className="flex justify-between">
           <div className=""></div>
           <div className="w-[60px] h-[60px] bg-[#f9fbfc] flex justify-center cursor-pointer items-center">

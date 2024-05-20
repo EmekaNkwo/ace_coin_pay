@@ -16,7 +16,7 @@ const CardDetails = () => {
           <TimerCount />
         </div>
       </div>
-      <div className="mt-[1rem] flex flex-col gap-[1.5rem]">
+      <div className="mt-[0.5rem] flex flex-col gap-[1rem]">
         <div className="flex justify-between items-center gap-2">
           <div className="flex flex-col gap-[0.5rem]">
             <h2 className="text-[#1e2a53] font-bold text-[20px]">
