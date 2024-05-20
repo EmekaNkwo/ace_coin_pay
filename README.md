@@ -1,3 +1,9 @@
-ACECOINPAY - https://pwa-tsk-manager.netlify.app/
+ACECOINPAY - https://ace-coi-pay.netlify.app/
 
-This is a UI for AceCoinPay App for making payments. This is built with React.js, TailwindCSS.
+<img src="../ace_coin_pay/src/assets/project_preview.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+## Description
+
+This is a UI for AceCoinPay App for making payments to other users. This is built with React.js, TailwindCSS.
