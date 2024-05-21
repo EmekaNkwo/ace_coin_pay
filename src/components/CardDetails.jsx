@@ -26,7 +26,7 @@ const CardDetails = () => {
               Enter the 16-digit card number on the card
             </span>
           </div>
-          <div className="flex items-center text-blueColor gap-2">
+          <div className="flex items-center text-blueColor gap-2 cursor-pointer">
             <ImPencil size={22} className="" />
             <span className="font-bold">Edit</span>
           </div>
