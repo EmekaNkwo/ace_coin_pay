@@ -6,7 +6,7 @@ export const TimerCount = () => {
     <div className="flex items-center gap-1">
       <span className={className}>0</span>
       <span className={className}>1</span>
-      <span>:</span>
+      <span className="text-[#1e2a53] font-bold text-[20px]">:</span>
       <span className={className}>1</span>
       <span className={className}>9</span>
     </div>
