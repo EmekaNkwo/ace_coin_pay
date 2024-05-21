@@ -75,11 +75,11 @@ const CardDetails = () => {
           </span>
         </div>
         <div className="flex items-center w-[55%]  gap-[1rem]">
-          <div className="w-full rounded-md lg:h-[70px] h-[60px]border-2 border-[#e0e0e080] flex items-center justify-center px-4">
+          <div className="w-full rounded-md lg:h-[70px] h-[60px] border-2 border-[#e0e0e080] flex items-center justify-center px-4">
             <CardInput text="09" isBold />
           </div>
           <span className={dotClassName}>/</span>
-          <div className="w-full rounded-md h-[80px] border-2 border-blueColor bg-[#f9fbfc] flex items-center justify-center px-4">
+          <div className="w-full rounded-md lg:h-[70px] h-[60px] border-2 border-blueColor bg-[#f9fbfc] flex items-center justify-center px-4">
             <CardInput text="22" isActive />
           </div>
         </div>
